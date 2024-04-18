@@ -10,5 +10,20 @@ For widespread application it should be able to access the GOOGLE_API_KEY saved 
 
 Its output is in the form of an ino file and a txt file that contains the explanation of what the sketch is supposed to do.
 
+Commands
+build - generate a .ino file and txt file that contain a default name.
+
+
+
+Options
+-h, --help
+-v,
+
+
+Handling Errors
+- Output errors to stdout and return 1.
+- Maybe no API key has been found or there's a network error.
+
+
 ---
 Ps : The name is still kinda lame.
